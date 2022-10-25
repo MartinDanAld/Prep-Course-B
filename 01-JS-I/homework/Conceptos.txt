@@ -1,0 +1,42 @@
+* Variables: Son las formas que uno tiene dentro de la programacion para guardar informacion en algo que la pueda almacenar y sea facil de 
+identificar.
+
+Las Variables son contenedores en los que puedes almacenar valores. 
+Primero debes declarar la variable con la palabra clave var (menos recomendado) o let, seguida del nombre que le quieras dar.
+--> let nombreDeLaVariable;
+Tras declarar una variable, puedes asignarle un valor:  --> nombreDeLaVariable = 'Bob';
+Puedes hacer las dos cosas en la misma línea si lo necesitas  --> let nombreDeLaVariable = 'Bob';
+Puedes obtener el valor de la variable llamándola por su nombre:  --> nombreDeLaVariable;
+Después de haberle dado un valor a la variable, puedes volver a cambiarlo:  
+--> let nombreDeLaVariable = 'Bob';  
+--> nombreDeLaVariable = 'Steve';
+
+
+* Strings: Las variables se deben identificar segun su tipo de Dato. Hay diferentes tipos de datos, uno de ellos es: String, o cadena en esp.
+Las Strings son palabras, simbolos o incluso espacios vacios. Son un conjunto de cualquier tecla del teclado que pueda ser escrita.
+Estas deben ser escritas entre comillas dobles para que el sistema las pueda identificar como tales.
+
+Esto es una secuencia de texto conocida como cadena. Para indicar que la variable es una cadena, debes escribirlo entre comillas. 
+let miVariable = 'Bob';
+
+* Booleans
+
+
+
+
+* Undefined
+
+
+
+
+* Null
+
+
+
+
+* Operadores
+
+
+
+
+* `==` vs. `===`
