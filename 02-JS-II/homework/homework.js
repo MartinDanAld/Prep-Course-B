@@ -53,7 +53,7 @@ function devolverString(str) {
     // Devuelve "true" si las dos strings tienen la misma longitud
     // De lo contrario, devuelve "false"
     // Tu código:
-    if (length(str1) == length(str2)){
+    if (str1.length == str2.length){
       return true;
     } else return false;
     
@@ -131,14 +131,14 @@ function devolverString(str) {
   function redondearNumero(num) {
     // Redondea "num" al entero más próximo y devuélvelo
     // Tu código:
-    return Math.redondearNumero(num);
+    return Math.round(num)
     
   }
   
   function redondearHaciaArriba(num) {
     // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
     // Tu código:
-    return Math.redondearHaciaArriba(num);
+    return Math.ceil(num)
     
   }
   
