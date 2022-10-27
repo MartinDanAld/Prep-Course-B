@@ -43,10 +43,9 @@ function devolverString(str) {
     // Devuelve "true" si "x" e "y" son iguales
     // De lo contrario, devuelve "false"
     // Tu código:
-    if(x===y){
-      return true;
-    }else{} return false;
-    
+    if(x===y) return true;
+    else return false;
+    // return x===y;
   }
   
   function tienenMismaLongitud(str1, str2) {
@@ -56,7 +55,7 @@ function devolverString(str) {
     if (str1.length == str2.length){
       return true;
     } else return false;
-    
+    // return str1.length == str2.length;
   }
   
   function menosQueNoventa(num) {
@@ -118,7 +117,7 @@ function devolverString(str) {
   function elevarAlCubo(num) {
     // Devuelve el valor de "num" elevado al cubo
     // Tu código:
-    return num**=3;
+    return num**3;
     
   }
   
