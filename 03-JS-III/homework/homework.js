@@ -14,7 +14,7 @@ function imprimirSumaNumeros() {
     }
     return suma
 }
-
+/*
 function encuentraPares(array){
   // Devuelve un arreglo con los pares encontrados
   // en el arreglo de enteros pasado como parámetro
@@ -26,6 +26,13 @@ function encuentraPares(array){
     }
   }
   return arrPar
+}*/
+function encuentraPares(array){
+  // Devuelve un arreglo con los pares encontrados
+  // en el arreglo de enteros pasado como parámetro
+  // Tu código:
+  const esPar = numero => numero%2===0;
+  const numerosPares = array.filter(esPar);
 }
 
 function elevaAlCuadrado(array){
